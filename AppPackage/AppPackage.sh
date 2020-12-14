@@ -23,6 +23,8 @@ scheme_name="AppPackage"
 build_configuration="Release"
 
 
+# ------------------注意------------------
+# 在配置以下选项时，请确保TARGETS->Signing&Capabilities的Automatically manage signing是关闭的，否则以下选项会使用Xcode内部配置为准
 # 项目的bundleID，手动管理Profile时必填
 bundle_identifier=""
 #  下面两个参数只是在手动指定Pofile文件的时候用到，如果使用Xcode自动管理Profile,直接留空就好
